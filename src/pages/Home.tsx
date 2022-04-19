@@ -70,7 +70,7 @@ const Home=()=>{
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{prd.name}</h5>
                             </a>
                             <p className="mb-2 font-normal text-gray-500 dark:text-gray-300 ">{prd.category}</p>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 ">{prd.description.slice(0,100)}</p>
+                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 ">{prd.description?.slice(0,100)}</p>
                             <div className="flex">
                                 <span className="title-font font-medium text-2xl text-gray-900">{`$${prd.price}`}</span>
                             </div>
